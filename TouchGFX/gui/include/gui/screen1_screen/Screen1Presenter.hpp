@@ -28,6 +28,7 @@ public:
     virtual ~Screen1Presenter() {};
 			
 		virtual void AnalogUpdate ( uint32_t value );
+		virtual void ProgressBarUpdate ( uint32_t value );
 
 private:
     Screen1Presenter();

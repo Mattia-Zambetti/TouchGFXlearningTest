@@ -9,6 +9,8 @@
 #include <gui/screen1_screen/Screen1Presenter.hpp>
 #include <touchgfx/widgets/Box.hpp>
 #include <touchgfx/widgets/TextAreaWithWildcard.hpp>
+#include <touchgfx/containers/progress_indicators/LineProgress.hpp>
+#include <touchgfx/widgets/canvas/PainterRGB565.hpp>
 
 class Screen1ViewBase : public touchgfx::View<Screen1Presenter>
 {
@@ -28,15 +30,25 @@ protected:
     touchgfx::Box __background;
     touchgfx::Box box1;
     touchgfx::TextAreaWithOneWildcard ADCtext;
+    touchgfx::LineProgress lineProgress1;
+    touchgfx::PainterRGB565 lineProgress1Painter;
+    touchgfx::TextAreaWithOneWildcard ProgressBarText;
 
     /*
      * Wildcard Buffers
      */
     static const uint16_t ADCTEXT_SIZE = 10;
     touchgfx::Unicode::UnicodeChar ADCtextBuffer[ADCTEXT_SIZE];
+    static const uint16_t PROGRESSBARTEXT_SIZE = 10;
+    touchgfx::Unicode::UnicodeChar ProgressBarTextBuffer[PROGRESSBARTEXT_SIZE];
 
 private:
 
+    /*
+     * Canvas Buffer Size
+     */
+    static const uint16_t CANVAS_BUFFER_SIZE = 7200;
+    uint8_t canvasBuffer[CANVAS_BUFFER_SIZE];
 };
 
 #endif // SCREEN1VIEWBASE_HPP

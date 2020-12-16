@@ -4,9 +4,12 @@
 #include <gui_generated/screen1_screen/Screen1ViewBase.hpp>
 #include <touchgfx/Color.hpp>
 #include <texts/TextKeysAndLanguages.hpp>
+#include "BitmapDatabase.hpp"
 
 Screen1ViewBase::Screen1ViewBase()
 {
+
+    touchgfx::CanvasWidgetRenderer::setupBuffer(canvasBuffer, CANVAS_BUFFER_SIZE);
 
     __background.setPosition(0, 0, 480, 272);
     __background.setColor(touchgfx::Color::getColorFrom24BitRGB(0, 0, 0));
@@ -14,7 +17,7 @@ Screen1ViewBase::Screen1ViewBase()
     box1.setPosition(0, 0, 480, 272);
     box1.setColor(touchgfx::Color::getColorFrom24BitRGB(92, 0, 0));
 
-    ADCtext.setXY(148, 124);
+    ADCtext.setXY(148, 80);
     ADCtext.setColor(touchgfx::Color::getColorFrom24BitRGB(255, 255, 255));
     ADCtext.setLinespacing(0);
     Unicode::snprintf(ADCtextBuffer, ADCTEXT_SIZE, "%s", touchgfx::TypedText(T_SINGLEUSEID3).getText());
@@ -22,9 +25,31 @@ Screen1ViewBase::Screen1ViewBase()
     ADCtext.resizeToCurrentText();
     ADCtext.setTypedText(touchgfx::TypedText(T_SINGLEUSEID2));
 
+    lineProgress1.setXY(38, 169);
+    lineProgress1.setProgressIndicatorPosition(0, 0, 404, 34);
+    lineProgress1.setRange(0, 100);
+    lineProgress1.setBackground(touchgfx::Bitmap(BITMAP_DARK_PROGRESSINDICATORS_BG_LARGE_PROGRESS_INDICATOR_BG_SQUARE_0_DEGREES_ID));
+    lineProgress1Painter.setColor(touchgfx::Color::getColorFrom24BitRGB(11, 163, 0));
+    lineProgress1.setPainter(lineProgress1Painter);
+    lineProgress1.setStart(2, 17);
+    lineProgress1.setEnd(402, 17);
+    lineProgress1.setLineWidth(30);
+    lineProgress1.setLineEndingStyle(touchgfx::Line::BUTT_CAP_ENDING);
+    lineProgress1.setValue(100);
+
+    ProgressBarText.setXY(207, 174);
+    ProgressBarText.setColor(touchgfx::Color::getColorFrom24BitRGB(255, 255, 255));
+    ProgressBarText.setLinespacing(0);
+    Unicode::snprintf(ProgressBarTextBuffer, PROGRESSBARTEXT_SIZE, "%s", touchgfx::TypedText(T_SINGLEUSEID7).getText());
+    ProgressBarText.setWildcard(ProgressBarTextBuffer);
+    ProgressBarText.resizeToCurrentText();
+    ProgressBarText.setTypedText(touchgfx::TypedText(T_SINGLEUSEID6));
+
     add(__background);
     add(box1);
     add(ADCtext);
+    add(lineProgress1);
+    add(ProgressBarText);
 }
 
 void Screen1ViewBase::setupScreen()

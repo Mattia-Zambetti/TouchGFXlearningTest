@@ -336,7 +336,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F746xx</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;   ../TouchGFX/App;   ../TouchGFX/target/generated;   ../TouchGFX/target;   ../Drivers/STM32F7xx_HAL_Driver/Inc;   ../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy;   ../Middlewares/Third_Party/FreeRTOS/Source/include;   ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS;   ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM7/r0p1;   ../Drivers/CMSIS/Device/ST/STM32F7xx/Include;   ../Drivers/CMSIS/Include;   ../Drivers/Components/ft5336;   ../Drivers/BSP;   ../TouchGFX/gui/include/gui/common;   ../TouchGFX/target/generated;   ../MDK-ARM;   ../middlewares/st/touchgfx/framework/include/touchgfx/Utils.hpp;../middlewares/st/touchgfx/framework/include;../touchgfx/generated/fonts/include;../touchgfx/generated/gui_generated/include;../touchgfx/generated/images/include;../touchgfx/generated/texts/include;../touchgfx/gui/include</IncludePath>
+              <IncludePath>../Core/Inc;    ../TouchGFX/App;    ../TouchGFX/target/generated;    ../TouchGFX/target;    ../Drivers/STM32F7xx_HAL_Driver/Inc;    ../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy;    ../Middlewares/Third_Party/FreeRTOS/Source/include;    ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS;    ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM7/r0p1;    ../Drivers/CMSIS/Device/ST/STM32F7xx/Include;    ../Drivers/CMSIS/Include;    ../Drivers/Components/ft5336;    ../Drivers/BSP;    ../TouchGFX/gui/include/gui/common;    ../TouchGFX/target/generated;    ../MDK-ARM;    ../middlewares/st/touchgfx/framework/include/touchgfx/Utils.hpp;../middlewares/st/touchgfx/framework/include;../touchgfx/generated/fonts/include;../touchgfx/generated/gui_generated/include;../touchgfx/generated/images/include;../touchgfx/generated/texts/include;../touchgfx/gui/include</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -784,6 +784,11 @@
               <FileName>GeneratedFont.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>../touchgfx/generated/fonts/src/generatedfont.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>image_Dark_ProgressIndicators_bg_large_progress_indicator_bg_square_0_degrees.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>../touchgfx/generated/images/src/__designer/image_dark_progressindicators_bg_large_progress_indicator_bg_square_0_degrees.cpp</FilePath>
             </File>
             <File>
               <FileName>Kerning_verdana_10_4bpp.cpp</FileName>

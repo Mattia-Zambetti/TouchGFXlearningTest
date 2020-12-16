@@ -36,4 +36,5 @@ void Model::AnalogUpdate ()
 		sum += value[i];
 	}
 	modelListener->AnalogUpdate( sum/NVAL );
+	modelListener->ProgressBarUpdate ( sum/NVAL );
 }

@@ -42,8 +42,73 @@
             },
             "Name": "ADCtext",
             "X": 148,
-            "Y": 124,
+            "Y": 80,
             "Width": 185,
+            "Height": 25,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "LineProgress",
+            "Color": {
+              "Red": 11,
+              "Green": 163,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "StartX": 2,
+            "StartY": 17,
+            "EndY": 17,
+            "EndX": 402,
+            "LineWidth": 30,
+            "LineEndingStyle": "Butt",
+            "FileNameBackground": "__designer\\Dark_ProgressIndicators_bg_large_progress_indicator_bg_square_0_degrees.png",
+            "IndicatorPositionX": 0,
+            "IndicatorPositionY": 0,
+            "IndicatorPositionWidth": 0,
+            "IndicatorPositionHeight": 0,
+            "ProgressRangeMin": 0,
+            "ProgressRangeMax": 100,
+            "ProgressRangeSteps": 0,
+            "ProgressRangeStepsMin": 0,
+            "ProgressInitialValue": 100,
+            "Name": "lineProgress1",
+            "X": 38,
+            "Y": 169,
+            "Width": 404,
+            "Height": 34,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId6",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Wildcard1": {
+              "TextId": "SingleUseId7",
+              "UseBuffer": true,
+              "BufferSize": 10
+            },
+            "Name": "ProgressBarText",
+            "X": 207,
+            "Y": 174,
+            "Width": 67,
             "Height": 25,
             "Visible": true,
             "LockPosition": false,
@@ -56,7 +121,7 @@
         "Interactions": [],
         "Name": "Screen1",
         "OverrideDefaultBufferSize": false,
-        "CanvasBufferSize": 0
+        "CanvasBufferSize": 7200
       }
     ],
     "CustomContainerDefinitions": [],
@@ -67,6 +132,14 @@
       },
       {
         "TextEntryId": "SingleUseId3",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId6",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId7",
         "IsResource": false
       }
     ],

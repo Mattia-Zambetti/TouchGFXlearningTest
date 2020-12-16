@@ -1,0 +1,2 @@
+completeprojecttouchgfx\image_dark_progressindicators_bg_large_progress_indicator_bg_square_0_degrees.o: ../touchgfx/generated/images/src/__designer/image_dark_progressindicators_bg_large_progress_indicator_bg_square_0_degrees.cpp
+completeprojecttouchgfx\image_dark_progressindicators_bg_large_progress_indicator_bg_square_0_degrees.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/Config.hpp

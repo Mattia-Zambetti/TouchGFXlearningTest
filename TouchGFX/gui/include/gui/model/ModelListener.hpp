@@ -17,6 +17,8 @@ public:
 		
 		virtual void AnalogUpdate( uint32_t value ) {}
 		
+		virtual void ProgressBarUpdate( uint32_t value ) {}
+
 protected:
     Model* model;
 };

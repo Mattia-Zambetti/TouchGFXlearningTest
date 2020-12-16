@@ -14,6 +14,7 @@ public:
     }
 		
 		void Model::AnalogUpdate ();
+		void Model::ProgressBarUpdate ();
 
     void tick();
 protected:

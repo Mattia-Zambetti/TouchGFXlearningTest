@@ -4,6 +4,9 @@
 #include <gui_generated/screen1_screen/Screen1ViewBase.hpp>
 #include <gui/screen1_screen/Screen1Presenter.hpp>
 #include <Utils.hpp>
+#include <touchgfx/Color.hpp>
+#include <texts/TextKeysAndLanguages.hpp>
+#include "BitmapDatabase.hpp"
 
 class Screen1View : public Screen1ViewBase
 {
@@ -13,6 +16,7 @@ public:
     virtual void setupScreen();
     virtual void tearDownScreen();
 		virtual void AnalogUpdate( uint16_t value );
+		virtual void ProgressBarUpdate( uint16_t value );
 protected:
 };
 

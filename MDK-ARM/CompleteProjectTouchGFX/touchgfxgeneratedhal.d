@@ -70,7 +70,30 @@ completeprojecttouchgfx\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/frame
 completeprojecttouchgfx\touchgfxgeneratedhal.o: D:\Dynamis\software\Keil MDK-ARM 5.24a\Keil program\ARM\ARMCC\Bin\..\include\cassert
 completeprojecttouchgfx\touchgfxgeneratedhal.o: D:\Dynamis\software\Keil MDK-ARM 5.24a\Keil program\ARM\ARMCC\Bin\..\include\assert.h
 completeprojecttouchgfx\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Texts.hpp
+completeprojecttouchgfx\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/containers/progress_indicators/LineProgress.hpp
+completeprojecttouchgfx\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/containers/progress_indicators/AbstractProgressIndicator.hpp
+completeprojecttouchgfx\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Image.hpp
+completeprojecttouchgfx\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainter.hpp
+completeprojecttouchgfx\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/Line.hpp
+completeprojecttouchgfx\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/Canvas.hpp
+completeprojecttouchgfx\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/canvas_widget_renderer/Rasterizer.hpp
+completeprojecttouchgfx\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/canvas_widget_renderer/Outline.hpp
+completeprojecttouchgfx\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/canvas_widget_renderer/Cell.hpp
+completeprojecttouchgfx\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/canvas_widget_renderer/Rasterizer.hpp
+completeprojecttouchgfx\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/canvas_widget_renderer/Renderer.hpp
+completeprojecttouchgfx\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/canvas_widget_renderer/RenderingBuffer.hpp
+completeprojecttouchgfx\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/canvas_widget_renderer/Scanline.hpp
+completeprojecttouchgfx\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/canvas_widget_renderer/CanvasWidgetRenderer.hpp
+completeprojecttouchgfx\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/transforms/DisplayTransformation.hpp
+completeprojecttouchgfx\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/CWRUtil.hpp
+completeprojecttouchgfx\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/CanvasWidget.hpp
+completeprojecttouchgfx\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/PainterRGB565.hpp
+completeprojecttouchgfx\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterRGB565.hpp
+completeprojecttouchgfx\touchgfxgeneratedhal.o: D:\Dynamis\software\Keil MDK-ARM 5.24a\Keil program\ARM\ARMCC\Bin\..\include\assert.h
 completeprojecttouchgfx\touchgfxgeneratedhal.o: ../Core/Inc/Utils.hpp
+completeprojecttouchgfx\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Color.hpp
+completeprojecttouchgfx\touchgfxgeneratedhal.o: ../touchgfx/generated/texts/include/texts/TextKeysAndLanguages.hpp
+completeprojecttouchgfx\touchgfxgeneratedhal.o: ../touchgfx/generated/images/include/BitmapDatabase.hpp
 completeprojecttouchgfx\touchgfxgeneratedhal.o: ../middlewares/st/touchgfx/framework/include/touchgfx/hal/GPIO.hpp
 completeprojecttouchgfx\touchgfxgeneratedhal.o: ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f7xx.h
 completeprojecttouchgfx\touchgfxgeneratedhal.o: ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f746xx.h

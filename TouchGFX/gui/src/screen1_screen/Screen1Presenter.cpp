@@ -21,3 +21,8 @@ void Screen1Presenter::AnalogUpdate( uint32_t value )
 {
 	view.AnalogUpdate( value);
 }
+
+void Screen1Presenter::ProgressBarUpdate( uint32_t value )
+{
+	view.ProgressBarUpdate( value);
+}

@@ -68,6 +68,28 @@ completeprojecttouchgfx\frontendapplicationbase.o: ../middlewares/st/touchgfx/fr
 completeprojecttouchgfx\frontendapplicationbase.o: D:\Dynamis\software\Keil MDK-ARM 5.24a\Keil program\ARM\ARMCC\Bin\..\include\cassert
 completeprojecttouchgfx\frontendapplicationbase.o: D:\Dynamis\software\Keil MDK-ARM 5.24a\Keil program\ARM\ARMCC\Bin\..\include\assert.h
 completeprojecttouchgfx\frontendapplicationbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Texts.hpp
+completeprojecttouchgfx\frontendapplicationbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/containers/progress_indicators/LineProgress.hpp
+completeprojecttouchgfx\frontendapplicationbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/containers/progress_indicators/AbstractProgressIndicator.hpp
+completeprojecttouchgfx\frontendapplicationbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/Image.hpp
+completeprojecttouchgfx\frontendapplicationbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainter.hpp
+completeprojecttouchgfx\frontendapplicationbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/Line.hpp
+completeprojecttouchgfx\frontendapplicationbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/Canvas.hpp
+completeprojecttouchgfx\frontendapplicationbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/canvas_widget_renderer/Rasterizer.hpp
+completeprojecttouchgfx\frontendapplicationbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/canvas_widget_renderer/Outline.hpp
+completeprojecttouchgfx\frontendapplicationbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/canvas_widget_renderer/Cell.hpp
+completeprojecttouchgfx\frontendapplicationbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/canvas_widget_renderer/Rasterizer.hpp
+completeprojecttouchgfx\frontendapplicationbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/canvas_widget_renderer/Renderer.hpp
+completeprojecttouchgfx\frontendapplicationbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/canvas_widget_renderer/RenderingBuffer.hpp
+completeprojecttouchgfx\frontendapplicationbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/canvas_widget_renderer/Scanline.hpp
+completeprojecttouchgfx\frontendapplicationbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/canvas_widget_renderer/CanvasWidgetRenderer.hpp
+completeprojecttouchgfx\frontendapplicationbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/transforms/DisplayTransformation.hpp
+completeprojecttouchgfx\frontendapplicationbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/CWRUtil.hpp
+completeprojecttouchgfx\frontendapplicationbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/CanvasWidget.hpp
+completeprojecttouchgfx\frontendapplicationbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/PainterRGB565.hpp
+completeprojecttouchgfx\frontendapplicationbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterRGB565.hpp
+completeprojecttouchgfx\frontendapplicationbase.o: D:\Dynamis\software\Keil MDK-ARM 5.24a\Keil program\ARM\ARMCC\Bin\..\include\assert.h
 completeprojecttouchgfx\frontendapplicationbase.o: ../Core/Inc/Utils.hpp
+completeprojecttouchgfx\frontendapplicationbase.o: ../middlewares/st/touchgfx/framework/include/touchgfx/Color.hpp
 completeprojecttouchgfx\frontendapplicationbase.o: ../touchgfx/generated/texts/include/texts/TextKeysAndLanguages.hpp
+completeprojecttouchgfx\frontendapplicationbase.o: ../touchgfx/generated/images/include/BitmapDatabase.hpp
 completeprojecttouchgfx\frontendapplicationbase.o: ../middlewares/st/touchgfx/framework/include/platform/driver/lcd/LCD16bpp.hpp
